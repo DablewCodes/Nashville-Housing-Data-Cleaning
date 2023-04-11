@@ -19,4 +19,4 @@ Cleaning Process:
 
 • Load into SSMS
 
-• Perform Clean
+• Perform Cleaning
