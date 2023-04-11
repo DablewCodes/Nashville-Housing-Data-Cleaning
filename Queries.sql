@@ -98,14 +98,14 @@ End
 
 With MarkDuplicates as (
 Select *, 
-		  ROW_NUMBER() over (
-		  PARTITION BY ParcelID,
-					   PropertyAddress,
-					   SaleDate,
-					   SalePrice,
-					   LegalReference
-			  Order By UniqueID 
-		  ) RowNum
+	ROW_NUMBER() over (
+	PARTITION BY ParcelID,
+	PropertyAddress,
+	SaleDate,
+	SalePrice,
+	LegalReference
+	Order By UniqueID 
+	) RowNum
 from nashville_housing
 )
 
@@ -125,7 +125,6 @@ Drop column PropertyAddress, OwnerAddress, TaxDistrict
 	Cleaning Completed
 
 						 */
-
 
 
 Select * from nashville_housing
