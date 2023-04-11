@@ -5,7 +5,7 @@ Practiced a wide range of SQL queries including Aggregate Functions, Joins, Wind
 
 Queries: https://github.com/DablewCodes/Nashville-Housing-Data-Cleaning/blob/main/Queries.sql
 
-This project was created by following this tutorial: https://www.youtube.com/watch?v=iPYVYBtUTyE&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&index=4
+This project was created by following this tutorial: https://www.youtube.com/watch?v=8rO7ztF4NtU&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&index=3
 
 Technologies used:
 
